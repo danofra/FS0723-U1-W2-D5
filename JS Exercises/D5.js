@@ -120,17 +120,61 @@ const numbersArray = [];
 
 for (let i = 0; i < charactersArray.length; i++) {
   switch (charactersArray[i]) {
+    case "a":
+      numbersArray.push(1);
+      break;
+    case "b":
+      numbersArray.push(2);
+      break;
+    case "c":
+      numbersArray.push(3);
+      break;
     case "d":
       numbersArray.push(4);
       break;
+    case "e":
+      numbersArray.push(5);
+      break;
+    case "f":
+      numbersArray.push(6);
+      break;
     case "g":
       numbersArray.push(7);
+    case "h":
+      numbersArray.push(8);
+    case "i":
+      numbersArray.push(9);
+    case "l":
+      numbersArray.push(10);
+    case "m":
+      numbersArray.push(11);
       break;
     case "n":
       numbersArray.push(12);
       break;
+    case "o":
+      numbersArray.push(13);
+      break;
+    case "p":
+      numbersArray.push(14);
+      break;
+    case "q":
+      numbersArray.push(15);
+      break;
+    case "r":
+      numbersArray.push(16);
+      break;
+    case "s":
+      numbersArray.push(17);
+      break;
+    case "t":
+      numbersArray.push(18);
+      break;
     case "u":
       numbersArray.push(19);
+      break;
+    case "v":
+      numbersArray.push(20);
       break;
     case "z":
       numbersArray.push(21);
@@ -140,4 +184,3 @@ for (let i = 0; i < charactersArray.length; i++) {
   }
 }
 console.log(numbersArray);
-// dovrebbe essere fatto per tutte le lettere, ma per mancanza di tempo non è stato fatto. Ovviamente noi sappiamo l'array quante lettere ha, ma di solito no.
