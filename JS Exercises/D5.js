@@ -115,7 +115,7 @@ while (num !== 32) {
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
-const charactersArray = ["g", "n", "u", "z", "d"];
+const charactersArray = ["g", "n", "u", "z", "d", "k"];
 const numbersArray = [];
 
 for (let i = 0; i < charactersArray.length; i++) {
@@ -140,12 +140,16 @@ for (let i = 0; i < charactersArray.length; i++) {
       break;
     case "g":
       numbersArray.push(7);
+      break;
     case "h":
       numbersArray.push(8);
+      break;
     case "i":
       numbersArray.push(9);
+      break;
     case "l":
       numbersArray.push(10);
+      break;
     case "m":
       numbersArray.push(11);
       break;
